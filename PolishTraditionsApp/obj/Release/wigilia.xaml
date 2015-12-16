@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="PolishTraditionsApp.wigilia"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PolishTraditionsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='1' Content="Back" HorizontalAlignment="Left" Margin="146,582,0,0" VerticalAlignment="Top"                     />
+        <Image HorizontalAlignment="Center" Height="224" Margin="44,10,48,0" VerticalAlignment="Top" Width="308" Source="/Assets/wigilia.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Height="311" Margin="10,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="20" FontFamily="Calibri Light">
+        	<Run Text="Christmas in Poland is a major annual celebration, as in most countries of the Christian world. "/>
+        	<LineBreak/>
+        	<Run Text="The observance of Christmas developed gradually over the centuries, beginning in ancient times; combining old pagan customs with the religious ones introduced after the Christianization of Poland by the Catholic Church. "/>
+        	<LineBreak/>
+        	<Run Text="Later influences include mutual permeating of local traditions and various folk cultures. "/>
+        </TextBlock>
+
+    </Grid>
+</Page>
+

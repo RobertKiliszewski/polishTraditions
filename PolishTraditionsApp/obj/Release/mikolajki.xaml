@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="PolishTraditionsApp.mikolajki"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PolishTraditionsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='1' Content="Back" HorizontalAlignment="Left" Height="15" Margin="145,582,0,0" VerticalAlignment="Top" Width="74"                     />
+        <Image HorizontalAlignment="Left" Height="166" Margin="10,10,0,0" VerticalAlignment="Top" Width="380" Source="/Assets/mikolajki.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Height="373" Margin="10,193,0,0" TextWrapping="Wrap" Text="Delving into the traditions of holly, curious whether only in Poland celebrate this feast. Well, feast day of Saint Nicholas, as in Poland, is celebrated in Luxembourg under the name Kleeschen, Austria and Switzerland as Samichlaus, France - Saint Nicolas, Germany, Romania and Slovenia, calling himself Sv. Miklavž in Serbia as Sveti Nikola in Turkey called Noel Baba in Brazil Papai Noel, the Czech Republic and Hungary - Mikulas. In the United States and Great Britain we find the form of Santa Claus and Father Christmas and gift-giving period lasts from name-Nicholas to the New Year." VerticalAlignment="Top" Width="380" FontSize="20"/>
+
+    </Grid>
+</Page>
+

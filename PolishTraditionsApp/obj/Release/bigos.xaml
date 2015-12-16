@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="PolishTraditionsApp.bigos"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PolishTraditionsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='1' Content="Back" HorizontalAlignment="Left" Margin="146,582,0,0" VerticalAlignment="Top"                     />
+        <Image HorizontalAlignment="Center" Height="224" Margin="54,19,39,397" Width="307" Source="/Assets/bigos.jpg"/>
+        <TextBlock ScrollViewer.VerticalScrollMode="Disabled" VerticalAlignment="Stretch" HorizontalAlignment="Left" Margin="10,243,0,53" TextWrapping="Wrap" Width="380" FontSize="20" FontFamily="Calibri Light">
+        	<Run Text="Bigos, known as a hunter's stew, is a traditional meat and cabbage stew typical of Polish, Lithuanian, Belarusian and Ukrainian cuisine, and is a Polish national dish."/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Typical ingredients include white cabbage, sauerkraut (kapusta kiszona in Polish), various cuts of meat and sausages, often whole or puréed tomatoes, honey and mushrooms. In very rare cases bigos can be made without meat or cabbage, but the presence of sauerkraut is absolutely essential. "/>
+        </TextBlock>
+
+    </Grid>
+</Page>
+

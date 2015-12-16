@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="PolishTraditionsApp.traditionalFood"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PolishTraditionsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="135,567,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Zurek" HorizontalAlignment="Left" Height="161" Margin="35,39,0,0" VerticalAlignment="Top" Width="327" FontSize="24" Click="Button_Click_1"/>
+        <Button Content="Bigos" HorizontalAlignment="Left" Height="161" Margin="35,213,0,0" VerticalAlignment="Top" Width="327" FontSize="24" Click="Button_Click_2"/>
+        <Button Content="Schabowy" HorizontalAlignment="Left" Height="160" Margin="35,394,0,0" VerticalAlignment="Top" Width="327" FontSize="24" Click="Button_Click_3"/>
+    </Grid>
+</Page>

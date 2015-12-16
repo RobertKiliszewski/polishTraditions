@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="PolishTraditionsApp.wielkanoc"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PolishTraditionsApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Back" HorizontalAlignment="Left" Height="6" Margin="147,582,0,0" VerticalAlignment="Top" Width="18" Click="Button_Click"/>
+        <Image HorizontalAlignment="Center" Margin="10,10,154,291" Width="236" Source="/Assets/easter.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Height="309" Margin="251,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" FontSize="16">
+        	<Run Text="First Easterish celebrations begin one week before Easter – on Palm Sunday (niedziela palmowa). "/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="On this day people bring decorative 'palms' to church to get them sprinkled with Holy Water, which surely has some deep religious meaning."/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="218" Margin="10,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" FontSize="16">
+        	<Run Text="In many villages there are special competitions for the biggest or most beautiful 'palm'. "/>
+        	<LineBreak/>
+        	<Run Text="Those palms are then taken back home, and kept as Easter decorations."/>
+        	<LineBreak/>
+        	<Run Text="Proper Easter begins in Poland on Holy Saturday (Wielka Sobota, literally Great Saturday). "/>
+        	<LineBreak/>
+        	<Run Text="This is the day of preparations. "/>
+        	<LineBreak/>
+        	<Run Text="Easter is not Easter without certain props – that are connected with spring, and everything waking up and refreshing. "/>
+        </TextBlock>
+
+    </Grid>
+</Page>
